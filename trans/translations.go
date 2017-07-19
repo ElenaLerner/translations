@@ -7,10 +7,11 @@ const adsCommandTitle = "\xE2\xAD\x90\xE2\xAD\x90\xE2\xAD\x90"
 // TRANS - translation string
 var TRANS = map[string]map[string]string{
 	"EXAMPLE": {
-		"ru-RU": "ПРИМЕР",
 		"en-US": "SAMPLE",
-		"it-IT": "ESEMPIO",
+		"es-ES": "EJEMPLO",
 		"fa-IR": "نمونه",
+		"it-IT": "ESEMPIO",
+		"ru-RU": "ПРИМЕР",
 	},
 
 	"Jan": {
