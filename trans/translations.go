@@ -16,173 +16,200 @@ var TRANS = map[string]map[string]string{
 
 	"Jan": {
 		"en-US": "Jan",
-		"ru-RU": "Янв.",
-		"it-IT": "Gen",
+		"es-ES": "Ene",
 		"fa-IR": "ژانویه",
+		"it-IT": "Gen",
+		"ru-RU": "Янв.",
 	},
 	"Feb": {
 		"en-US": "Feb",
-		"ru-RU": "Фев.",
-		"it-IT": "Feb",
+		"es-ES": "Feb",
 		"fa-IR": "فوریه",
+		"it-IT": "Feb",
+		"ru-RU": "Фев.",
 	},
 	"Mar": {
 		"en-US": "Mar",
-		"ru-RU": "Мрт.",
-		"it-IT": "Mar",
+		"es-ES": "Mar",
 		"fa-IR": "مارس",
+		"it-IT": "Mar",
+		"ru-RU": "Мрт.",
 	},
 	"Apr": {
 		"en-US": "Apr",
-		"ru-RU": "Апр.",
-		"it-IT": "Apr",
+		"es-ES": "Abr",
 		"fa-IR": "آوریل",
+		"it-IT": "Apr",
+		"ru-RU": "Апр.",
 	},
 	"May": {
 		"en-US": "May",
-		"ru-RU": "Май ",
-		"it-IT": "Mag",
+		"es-ES": "May",
 		"fa-IR": "مه",
+		"it-IT": "Mag",
+		"ru-RU": "Май ",
 	},
 	"Jun": {
 		"en-US": "Jun",
-		"ru-RU": "Июнь",
-		"it-IT": "Giu",
+		"es-ES": "Jun",
 		"fa-IR": "ژوئن",
+		"it-IT": "Giu",
+		"ru-RU": "Июнь",
 	},
 	"Jul": {
 		"en-US": "Jul",
-		"ru-RU": "Июль",
+		"es-ES": "Jul",
 		"fa-IR": "ژوئیه",
 		"it-IT": "Lug",
+		"ru-RU": "Июль",
 	},
 	"Aug": {
 		"en-US": "Aug",
-		"ru-RU": "Авг.",
+		"es-ES": "Aug",
 		"fa-IR": "اوت",
 		"it-IT": "Ago",
+		"ru-RU": "Авг.",
 	},
 	"Sep": {
 		"en-US": "Sep",
-		"ru-RU": "Сен.",
+		"es-ES": "Sep",
 		"fa-IR": "سپتامبر",
 		"it-IT": "Sett",
+		"ru-RU": "Сен.",
 	},
 	"Oct": {
 		"en-US": "Oct",
-		"ru-RU": "Окт.",
+		"es-ES": "Oct",
 		"fa-IR": "اکتبر",
 		"it-IT": "Ott",
+		"ru-RU": "Окт.",
 	},
 	"Nov": {
 		"en-US": "Nov",
-		"ru-RU": "Нбр.",
+		"es-ES": "Nov",
 		"fa-IR": "نوامبر",
 		"it-IT": "Nov",
+		"ru-RU": "Нбр.",
 	},
 	"Dec": {
 		"en-US": "Dec",
-		"ru-RU": "Дек.",
+		"es-ES": "Dic",
 		"fa-IR": "دسامبر",
 		"it-IT": "Dic",
+		"ru-RU": "Дек.",
 	},
 	COMMAND_START: {
 		"en-US": "start",
-		"ru-RU": "старт",
-		"it-IT": "inizio",
+		"es-ES": "inicio",
 		"fa-IR": "شروع",
+		"it-IT": "inizio",
+		"ru-RU": "старт",
 	},
 	COMMAND_MENU: {
 		"en-US": "menu",
-		"ru-RU": "меню",
-		"it-IT": "menu", // TODO(IT): Google translated
+		"es-ES": "menu",
 		"fa-IR": "منو",
+		"it-IT": "menu", // TODO(IT): Google translated
+		"ru-RU": "меню",
 	},
 	COMMAND_GAVE: {
 		"en-US": "gave",
-		"ru-RU": "дал",
-		"it-IT": "debito",
+		"es-ES": "débito",
 		"fa-IR": "قرض_دادن",
+		"it-IT": "debito",
+		"ru-RU": "дал",
 	},
 	COMMAND_GOT: {
 		"en-US": "got",
-		"ru-RU": "взял",
-		"it-IT": "credito",
+		"es-ES": "credito",
 		"fa-IR": "قرض_گرفتن",
+		"it-IT": "crédito",
+		"ru-RU": "взял",
 	},
 	COMMAND_RETURNED: {
 		"en-US": "returned",
-		"ru-RU": "вернул",
-		"it-IT": "rientra",
+		"es-ES": "devolví",
 		"fa-IR": "بازگردانده_شده",
+		"it-IT": "rientra",
+		"ru-RU": "вернул",
 	},
 	COMMAND_BALANCE: {
 		"en-US": "balance",
-		"ru-RU": "баланс",
-		"it-IT": "bilancio",
+		"es-ES": "balance",
 		"fa-IR": "تراز",
+		"it-IT": "bilancio",
+		"ru-RU": "баланс",
 	},
 	COMMAND_HISTORY: {
 		"en-US": "history",
-		"ru-RU": "история",
-		"it-IT": "cronologia",
+		"es-ES": "cronología",
 		"fa-IR": "سوابق",
+		"it-IT": "cronologia",
+		"ru-RU": "история",
 	},
 	COMMAND_SETTINGS: {
 		"en-US": "settings",
-		"ru-RU": "настройки",
-		"it-IT": "impostazioni",
+		"es-ES": "ajustes",
 		"fa-IR": "تنظیمات",
+		"it-IT": "impostazioni",
+		"ru-RU": "настройки",
 	},
 	COMMAND_HELP: {
 		"en-US": "help",
-		"ru-RU": "помощь",
-		"it-IT": "aiuto",
+		"es-ES": "ayuda",
 		"fa-IR": "کمک",
+		"it-IT": "aiuto",
+		"ru-RU": "помощь",
 	},
 	COMMAND_CANCEL: {
 		"en-US": "cancel",
-		"ru-RU": "/отменить",
-		"it-IT": "annulla",
+		
 		"fa-IR": "کنسل",
+		"it-IT": "annulla",
+		"ru-RU": "/отменить",
 	},
 	COMMAND_CLEAR: {
 		"en-US": "clear",
-		"ru-RU": "очистить",
-		"it-IT": "chiaro",
+		"es-ES": "vaciar",
 		"fa-IR": "پاک_کردن",
+		"it-IT": "chiaro",
+		"ru-RU": "очистить",
 	},
 	adsCommandTitle: {
-		"ru-RU": adsCommandTitle,
 		"en-US": adsCommandTitle,
+		"es-ES": adsCommandTitle,
 		"fa-IR": adsCommandTitle,
 		"it-IT": adsCommandTitle,
+		"ru-RU": adsCommandTitle,
 	},
 	" and ": {
-		"ru-RU": " и ",
 		"en-US": " and ",
+		"es-ES": " y ",
 		"fa-IR": " و ",
 		"it-IT": " e ",
+		"ru-RU": " и ",
 	},
 	bots.MESSAGE_TEXT_OOPS_SOMETHING_WENT_WRONG: {
-		"ru-RU": "Упс, что-то пошло не так... \xF0\x9F\x98\xB3",
 		"en-US": "Oops, something went wrong... \xF0\x9F\x98\xB3",
+		"es-ES": "Ops,  algo salió mal... \xF0\x9F\x98\xB3",
 		"fa-IR": "اوه، یک جای کار مشکل دارد ...  \xF0\x9F\x98\xB3",
 		"it-IT": "Ops, qualcosa e' andato storto... \xF0\x9F\x98\xB3",
+		"ru-RU": "Упс, что-то пошло не так... \xF0\x9F\x98\xB3",
 	},
 	MESSAGE_TEXT_ASK_DUE: {
-		"ru-RU": "Когда дата возврата?",
 		"en-US": "When is the due date?",
+		"es-ES": "¿Cuándo la fecha de devolución?",
 		"fa-IR": "سررسید چه زمانی است؟",
 		"it-IT": "Data di scadenza?",
+		"ru-RU": "Когда дата возврата?",
 	},
 	MESSAGE_TEXT_ASK_DATE_TO_REMIND: {
-		"ru-RU": `Чтобы задать дату напопинания напишите её в формате <i>ДД.MM.ГОД</i>.
-<b>Например</b> для 20 января 2017 г. отправьте:
-    <i>20.01.2017</i>`,
-
 		"en-US": `To set date for next reminder please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
+    <i>20.01.2017</i>`,
+
+		"es-ES": `Para establecer la fecha recordatoria escribela en el formato <i>DD.MM.AÑO</i>.
+<b>For example</b> para 20 de Enero 2017 envia:
     <i>20.01.2017</i>`,
 		
 		"fa-IR": `لطفاً برای تنظیم یادآور بعدی آنرا با متنی با این فرمت ارسال نمایید. <i>روز.ماه.سال</i>.
@@ -193,15 +220,17 @@ var TRANS = map[string]map[string]string{
 		<b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
 
 		<i>20.01.2017</i>`,
+		
+		"ru-RU": `Чтобы задать дату напопинания напишите её в формате <i>ДД.MM.ГОД</i>.
+<b>Например</b> для 20 января 2017 г. отправьте:
+    <i>20.01.2017</i>`,
 	},
 	MESSAGE_TEXT_ASK_DUE_DATE: {
-		"ru-RU": `Чтобы задать дату возврата напишите её в формате <i>ДД.MM.ГОД</i>.
-		<b>Например</b> для 20 января 2017 г.отправьте:
-		<i>20.01.2017</i>`,
-
 		"en-US": `To set due date please send it as a text in format of <i>DD.MM.YEAR</i>.
 		<b>For example</b> for 20th of January 2017 submit:
 		<i>20.01.2017</i>`,
+
+		
 
 		"fa-IR": `لطفاً برای تنظیم تاریخ سررسید این فرمت را رعایت فرمایید.<i>روز.ماه.سال</i>.
 		<b>برای مثال</b> برای 20 ژانویه 2017 ثبت کنید:
@@ -209,6 +238,10 @@ var TRANS = map[string]map[string]string{
 
 		"it-IT": `Per impostare la data di scadenza invia il messaggio con la data nel seguente formato <i>GG.MM.ANNO</i>.
 		<b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
+		<i>20.01.2017</i>`,
+		
+		"ru-RU": `Чтобы задать дату возврата напишите её в формате <i>ДД.MM.ГОД</i>.
+		<b>Например</b> для 20 января 2017 г.отправьте:
 		<i>20.01.2017</i>`,
 	},
 	MESSAGE_TEXT_WRONG_DATE: {
