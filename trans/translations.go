@@ -304,7 +304,7 @@ var TRANS = map[string]map[string]string{
 	},
 	COMMAND_TEXT_IN_FEW_MINUTES: {
 		"en-US": "In few minutes",
-		
+		"es-ES2: "En unos minutos"
 		"fa-IR": "در چند دقیقه",
 		"it-IT": "Fra alcuni minuti",
 		"ru-RU": "Через минуту",
@@ -789,33 +789,39 @@ var TRANS = map[string]map[string]string{
 		Puoi digitarlo o sceglierlo dalla tua rubrica (<i>attraverso l'icona "clip"</i>).
 
 		<i>Digita '.' ed invia per annullare</i>`,
+
 	},
 	MESSAGE_TEXT_TRANSFER_IS_CREATING: {
 		"ru-RU": "Создаю запись...",
 		"en-US": "Creating transfer...",
 		"fa-IR": "ایجاد انتقال ...",
 		"it-IT": "Sto creando la nuova voce...",
+                "es-ES": "Creando la nueva nota...",
 	},
 	COMMAND_TEXT_PLEASE_WAIT: {
 		"ru-RU": "Пожалуйста подождите",
+                "es-ES": "Espera, por favor",
 		"en-US": "Please wait",
 		"fa-IR": "لطفا صبر کنید",
 		"it-IT": "Aspetta per favore",
 	},
 	MESSAGE_TEXT_PLEASE_WAIT: {
 		"ru-RU": "Пожалуйста подождите...",
+                "es-ES": "Espera, por favor...",
 		"en-US": "Please wait...",
 		"it-IT": "Aspetta per favore...",
 		"fa-IR": "لطفا صبر کنید ...",
 	},
 	MESSAGE_TEXT_SELF_ACKNOWLEDGEMENT: {
 		"ru-RU": "Подтверждение ожидается от %v",
+                "es-ES": "Confirmación se espera de %v",
 		"en-US": "Acknowledgement is expected from %v",
 		"it-IT": "Conferma in attesa da %v",
 		"fa-IR": "انتظار تصدیق می رود از %v",
 	},
 	MESSAGE_TEXT_TRANSFER_ACCEPTED_BY_YOU: {
 		"ru-RU": "Вы подтвердили эту транзакцию.",
+                "es-ES": "Has confirmado esta transacción",
 		"en-US": "You've accepted this transaction.",
 		"fa-IR": ".شما این تراکنش را قبول کردید ",
 		"it-IT": "Hai accettato il debito/credito.",
@@ -824,6 +830,8 @@ var TRANS = map[string]map[string]string{
 		"ru-RU": `Вы НЕ согласны с этой транзакцией.
 
 Сама транзакция НЕ будет отменена, но создатель будет оповещён.`,
+                "es-ES": "No estas de acuerdo con la transacción.
+La transacción No será cancelada, pero 
 		"en-US": `You do not agree with this transaction.
 
 The transaction will not be deleted but the creator will be notified.`,
